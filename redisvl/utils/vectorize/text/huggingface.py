@@ -94,8 +94,8 @@ class HFTextVectorizer(BaseVectorizer):
         Raises:
             TypeError: If the wrong input type is passed in for the text.
         """
-        if not isinstance(text, str):
-            raise TypeError("Must pass in a str value to embed.")
+        #if not isinstance(text, str):
+        #    raise TypeError("Must pass in a str value to embed.")
 
         if preprocess:
             text = preprocess(text)
